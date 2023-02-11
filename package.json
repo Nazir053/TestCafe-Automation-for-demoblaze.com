@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "prettier": "^2.8.4",
+    "testcafe": "^2.3.1"
+  },
+  "name": "testcafe-automation-for-demoblaze.com",
+  "description": "This is simple testcafe project which automate testing on demoblaze.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com.git"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Nazir Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com/issues"
+  },
+  "homepage": "https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com#readme"
+}
