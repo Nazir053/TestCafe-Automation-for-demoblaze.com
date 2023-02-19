@@ -8,7 +8,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./test"
+    "test_all": "testcafe chrome -c 1 --test-grep '@nh' --skip-js-errors tests/log_in.js",
+    "sign_up_test": "testcafe chrome tests/sign_up.js",
+    "log_in_test": "testcafe chrome tests/log_in.js",
+    "add_to_cart_test": "testcafe chrome tests/add_to_cart.js",
+    "delete_from_cart_test": "testcafe chrome tests/delete_from_cart.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com/issues"
   },
-  "homepage": "https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com#readme"
+  "homepage": "https://github.com/Nazir053/TestCafe-Automation-for-demoblaze.com#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
 }
